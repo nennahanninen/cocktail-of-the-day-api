@@ -16,7 +16,7 @@ export default function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/bry4qh1582751040.jpg/preview"
           alt="First slide"
         />
         <Carousel.Caption>
