@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 
 export default function NavBar() {
+  
   return (
       <Navbar bg="light" expand="lg">
         <Container>
@@ -30,7 +31,7 @@ export default function NavBar() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-secondary" size="sm">Search</Button>
+              <Button variant="outline-secondary" >Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>

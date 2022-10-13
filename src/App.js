@@ -1,12 +1,12 @@
-import "./App.css";
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import CocktailOfTheDay from "./pages/CocktailOfTheDay";
-import Footer from "./components/Footer";
-import Alcoholic from "./pages/Alcoholic";
-import NonAlcoholic from "./pages/NonAlcoholic";
+import "./App.css"
+import React from "react"
+import { Routes, Route } from "react-router-dom"
+import NavBar from "./components/NavBar"
+import Home from "./pages/Home"
+import CocktailOfTheDay from "./pages/CocktailOfTheDay"
+import Footer from "./components/Footer"
+import Alcoholic from "./pages/Alcoholic"
+import NonAlcoholic from "./pages/NonAlcoholic"
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       </div>
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
