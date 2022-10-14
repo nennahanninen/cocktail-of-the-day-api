@@ -5,8 +5,6 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form'
 
 export default function NavBar() {
   
@@ -24,15 +22,6 @@ export default function NavBar() {
                 <NavDropdown.Item><Link className="nav-link" to="/non-alcoholic"> Non-Alcoholic </Link></NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search cocktails"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-secondary" >Search</Button>
-            </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>

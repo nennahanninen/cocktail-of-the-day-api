@@ -22,6 +22,25 @@ body {
   font-size: 1.5em;
 }
 
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  border-color: #F2B59D;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.search-button {
+  color: #f4cdbd;
+  border-style: none;
+  border-radius: 50px;
+}
+
 .card-container {
   display: flex;
   align-items: center;
@@ -34,6 +53,12 @@ body {
   font-size: 1em;
   margin: 20px;
   color: rgb(100, 100, 100);
+}
+
+.card-title-home {
+  font-size: 2em;
+  color: white;
+  text-align: center;
 }
 
 .coctail-emoji {
