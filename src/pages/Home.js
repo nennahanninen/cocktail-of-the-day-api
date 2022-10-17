@@ -36,26 +36,26 @@ export default function Home() {
     }, [])
 
     return (
-      <div className="page-container">
+      <div className='page-container'>
         <h3>Welcome to the Cocktail website!</h3>
         <h4>Most popular cocktails:</h4>
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src={m.strDrinkThumb} />
+            <Card.Img variant='top' src={m.strDrinkThumb} />
             <Card.ImgOverlay>
-              <Card.Title className="card-title-home">{m.strDrink}</Card.Title>
+              <Card.Title className='card-title-home'>{m.strDrink}</Card.Title>
             </Card.ImgOverlay>
           </Card>
           <Card>
-            <Card.Img variant="top" src={n.strDrinkThumb} rounded />
+            <Card.Img variant='top' src={n.strDrinkThumb} rounded />
             <Card.ImgOverlay>
-              <Card.Title className="card-title-home">{n.strDrink}</Card.Title>
+              <Card.Title className='card-title-home'>{n.strDrink}</Card.Title>
             </Card.ImgOverlay>
           </Card>
           <Card>
-            <Card.Img variant="top" src={w.strDrinkThumb} />
+            <Card.Img variant='top' src={w.strDrinkThumb} />
             <Card.ImgOverlay>
-              <Card.Title className="card-title-home">{w.strDrink}</Card.Title>
+              <Card.Title className='card-title-home'>{w.strDrink}</Card.Title>
             </Card.ImgOverlay>
           </Card>
         </CardGroup>
