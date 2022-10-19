@@ -29,6 +29,9 @@ export default function Home() {
             setN(allNegroniData)
             setW(allWhiskeySourData)
         }))
+        .catch((err) => {
+          console.log(err.message)
+         })
     }
 
     useEffect(() => {
