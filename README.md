@@ -1,4 +1,4 @@
-# Final Assignment
+# Cocktail of the day
 
 Course: Web Development Frameworks
 
